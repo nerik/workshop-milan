@@ -1,0 +1,18 @@
+{
+  "workshop-milan" : {
+    "slides": [
+      { "text": "Dealing with density" },
+      "density",
+      "clustering",
+      "clustering-named",
+      "heatmap-basketball",
+      "heatmap-strava",
+      "hexbins"
+    ],
+    "sources": [
+      {
+        "url": "https://www.loxodrome.io/post/dense-spatial-data/"
+      }
+    ]
+  }
+}

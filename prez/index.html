@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Maps</title>
+</head>
+<body>
+
+  <div id="slides"></div>
+
+  <script type="text/template" id="tpl-slides">
+    <% slides.forEach(function(slide) { %>
+      <% if (slide.url) { %>
+        <img src="./img/<%= slide.url %>"></img>
+        <%= slide.title %>
+      <% } else if (slide.text) { %>
+        <%= slide.text %>
+      <% } %>
+    <% }) %>
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
