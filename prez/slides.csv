@@ -1,18 +1,62 @@
-id,title,tags
-bivariate,,
-clustering-named,Clustering (named),
-clustering,,
-density,,bad
-heatmap-basketball,,
-heatmap-strava,,
-NYC-bivariate,,
-NYC-bivariate-legend,,
-projections-compare,,
-rainbow-italy,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
+id,title,tags,src
+bivariate,bivariate choropleth,,
+clustering-named,clustering (named),,
+clustering,,,https://www.loxodrome.io/post/dense-spatial-data/
+hex-bins,bins (hex),,https://www.loxodrome.io/post/dense-spatial-data/
+density,too much points?,bad
+heatmap-basketball,heatmap (points),
+heatmap-strava,heatmap (lines),
+NYC-bivariate,an emoji bivariate choropleth,https://nerik.github.io/Leaflet.Emoji/#emoji_nyc
+NYC-bivariate-legend,an emoji bivariate choropleth (legend),https://nerik.github.io/Leaflet.Emoji/#emoji_nyc
+projections-compare,projections trade-offs,
+rainbow-italy,bad: rainbow map,
+stacking-chips,,
+cartocolors-sequential,,,https://carto.com/carto-colors/
+cartocolors-diverging,,,https://carto.com/carto-colors/
+cartocolors-qualitative,,,https://carto.com/carto-colors/
+choro-qualitative-geology,Spain geology choropleth (qualitative),,https://team.carto.com/u/ramirocartodb/builder/0fa089b3-3c41-4e46-be51-a9daa5c76d9d/
+choro-sequential-unemployment,unemployment choropleth (sequential),,https://bl.ocks.org/mbostock/4060606
+choro-diverging-oceans,Oceans temperature choropleth (diverging),,https://carto.com/blog/introducing-cartocolors
+removetoimprove,Remove to improve !,,https://video.twimg.com/tweet_video/Cxzwl8lWQAADmPp.mp4
+cartograms-animated-elections,,,http://bl.ocks.org/veltman/c7bfb3d4a3817f7ee0bf2dd19ff058c1
+cartogram-london,London squared map,,http://aftertheflood.co/projects/london-squared-map
+cartogram-london-src,London squared map,,http://aftertheflood.co/projects/london-squared-map
+cartogram-london-choropleth,London squared map,,http://aftertheflood.co/projects/london-squared-map
+cartogram-london-lines,London squared map,,http://aftertheflood.co/projects/london-squared-map
+cartogram-world,World population cartogram,,https://www.loxodrome.io/post/effective-cartograms/
+cartogram-us-elections-squares,US Elections 2012,,https://commons.wikimedia.org/wiki/File:Cartogram%E2%80%942012_Electoral_Vote.svg
+cartogram-us-elections,US Elections 2012,,
+normalization-before,Normalization (before),,https://www.e-education.psu.edu/maps/l4_p5.html
+normalization-after,Normalization (after),,https://www.e-education.psu.edu/maps/l4_p5.html
+normalization-heatmap-xkcd,heatmaps and normalization,,https://xkcd.com/1138/
+fogofwar,Fog of war,,
+isochrone,,,https://www.washingtonpost.com/news/worldviews/wp/2015/06/05/map-the-remarkable-distances-you-can-travel-on-a-european-train-in-less-than-a-day/?utm_term=.107248e64224
+choro-diverging-booze,Beer/wine choropleth (diverging),,https://nation.maps.arcgis.com/apps/Cascade/index.html?appid=0706b147ad524c7e86a5894e449338fc
+removetoimprove,Remove to improve !,,
+classification-methods,,,https://twitter.com/mbostock/status/823953665123717120
+dotdensity-netherlands,,,http://research.cbs.nl/colordotmap/NL/index.html
+proportionalsymbols-scaling,,,https://twitter.com/pinakographos/status/816314547388694528
+choro-toomuchclasses,Too much classes!,,
+clustering-atlasobscura,Atlas Obscura,,http://www.atlasobscura.com/articles/for-the-first-time-we-put-all-10000-places-in-the-atlas-on-one-map
+bad-foreignborn,,,http://cartonerd.blogspot.com.es/2017/02/dangerous-times-dangerous-maps.html
+gender-traditional,blue and pink?,,http://www.visualisingdata.com/2015/02/lets-think-blue-pink/
+gender-different,blue and pink?,,http://www.visualisingdata.com/2015/02/lets-think-blue-pink/
+proportionalsymbols-circles,area, not diameter!,,https://gist.github.com/jsanz/c28f0d5bd2c518cddf5c
+proportionalsymbols-elections,,,https://gist.github.com/jsanz/c28f0d5bd2c518cddf5c
+dotdensity,,,http://demographics.virginia.edu/DotMap/
+chernoff-losangeles,Chernoff faces - death penalty,,
+chernoff-deathpenalty,Chernoff faces - los angeles,,
+chernoff-key,Chernoff faces,,
+proportionalsymbols-oregon,proportional symbols: occlusion,,
+bad-ukpubs,pubs in the UK,,
+immigrants-flow,symbology matters!,,
+classification-methods-video,,,https://www.youtube.com/watch?v=0ebL8OvG8Jc
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

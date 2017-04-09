@@ -12,11 +12,14 @@ Promise.all(['./slides.json','./decks.json'].map(url => fetch(url)
         slide = rawSlide;
       } else {
         slide.url = `${slide.id}.${slide.ext}`;
+        if (slide.title === '') {
+          slide.title = slide.id.replace('-',' ');
+        }
       }
       return slide;
     });
 
-    console.log(milanSlides)
+    console.log(milanSlides);
 
     const template = _.template(document.getElementById('tpl-slides').innerText);
 

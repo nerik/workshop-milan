@@ -1,18 +1,61 @@
 {
   "workshop-milan" : {
     "slides": [
+      { "text": "Choropleths and color scales" },
+      "cartocolors-sequential",
+      "choro-sequential-unemployment",
+      "cartocolors-diverging",
+      "choro-diverging-oceans",
+      "choro-diverging-booze",
+      "cartocolors-qualitative",
+      "choro-qualitative-geology",
+      "normalization-before",
+      "normalization-after",
+      { "text": "NEVER MAP TOTALS IN A CHOROPLETH!" },
+      "rainbow-italy",
+      "choro-toomuchclasses",
+      "gender-traditional",
+      "gender-different",
+      "immigrants-flow",
+      "bivariate",
+      "NYC-bivariate",
+      "NYC-bivariate-legend",
+      { "text": "Classification methods" },
+      "classification-methods-video",
+      "classification-methods",
+      { "text": "Proportional symbols maps (aka bubble maps)" },
+      "proportionalsymbols-elections",
+      "proportionalsymbols-scaling",
+      "proportionalsymbols-oregon",
+      "proportionalsymbols-circles",
+      "chernoff-losangeles",
+      "chernoff-deathpenalty",
+      "chernoff-key",
       { "text": "Dealing with density" },
-      "density",
+      "bad-ukpubs",
       "clustering",
+      "clustering-atlasobscura",
       "clustering-named",
       "heatmap-basketball",
       "heatmap-strava",
-      "hexbins"
-    ],
-    "sources": [
-      {
-        "url": "https://www.loxodrome.io/post/dense-spatial-data/"
-      }
+      "normalization-heatmap-xkcd",
+      "hexbins",
+      "chips",
+      { "text": "Cartograms" },
+      "cartogram-world",
+      "cartogram-london-src",
+      "cartogram-london",
+      "cartogram-us-elections",
+      "cartogram-us-elections-squares",
+      "cartogram-london-choropleth",
+      "cartogram-london-lines",
+      "cartograms-animated-elections",
+      { "text": "Dot density maps" },
+      "dotdensity",
+      "dotdensity-netherlands",
+      { "text": "Remove to improve!" },
+      "removetoimprove",
+      "removetoimprove-czech-cities"
     ]
   }
 }

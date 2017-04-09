@@ -12,12 +12,16 @@
 
   <script type="text/template" id="tpl-slides">
     <% slides.forEach(function(slide) { %>
+      <section>
       <% if (slide.url) { %>
-        <img src="./img/<%= slide.url %>"></img>
-        <%= slide.title %>
+        <h2><%= slide.title %></h2>
+        <a href="<%= slide.src %>">
+          <img src="./img/<%= slide.url %>"></img>
+        </a>
       <% } else if (slide.text) { %>
-        <%= slide.text %>
+        <h1><%= slide.text %></h1>
       <% } %>
+      </section>
     <% }) %>
   </script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
