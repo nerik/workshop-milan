@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Maps</title>
+  <link rel="stylesheet" href="style.css" media="screen">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,800" rel="stylesheet">
+
 </head>
 <body>
 
@@ -14,17 +17,17 @@
     <% slides.forEach(function(slide) { %>
       <section>
       <% if (slide.url) { %>
-        <h2><%= slide.title %></h2>
-        <a href="<%= slide.src %>">
-          <img src="./img/<%= slide.url %>"></img>
+        <a href="<%= slide.src %>" target="_blank">
+          <div style="background-image: url('./img/<%= slide.url %>')"></div>
         </a>
+        <h2><%= slide.title %></h2>
       <% } else if (slide.text) { %>
         <h1><%= slide.text %></h1>
       <% } %>
       </section>
     <% }) %>
   </script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  <script type="text/javascript" src="./vendor/underscore-min.js"></script>
   <script type="text/javascript" src="index.js"></script>
 </body>
 </html>

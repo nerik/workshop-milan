@@ -1,6 +1,6 @@
 id,title,tags,src
 bivariate,bivariate choropleth,,
-clustering-named,clustering (named),,
+clustering-named,clustering (named),,http://laruchequiditoui.fr
 clustering,,,https://www.loxodrome.io/post/dense-spatial-data/
 hex-bins,bins (hex),,https://www.loxodrome.io/post/dense-spatial-data/
 density,too much points?,bad
@@ -32,26 +32,26 @@ normalization-heatmap-xkcd,heatmaps and normalization,,https://xkcd.com/1138/
 fogofwar,Fog of war,,
 isochrone,,,https://www.washingtonpost.com/news/worldviews/wp/2015/06/05/map-the-remarkable-distances-you-can-travel-on-a-european-train-in-less-than-a-day/?utm_term=.107248e64224
 choro-diverging-booze,Beer/wine choropleth (diverging),,https://nation.maps.arcgis.com/apps/Cascade/index.html?appid=0706b147ad524c7e86a5894e449338fc
-removetoimprove,Remove to improve !,,
+removetoimprove-czech-cities,Remove to improve !,,
 classification-methods,,,https://twitter.com/mbostock/status/823953665123717120
-dotdensity-netherlands,,,http://research.cbs.nl/colordotmap/NL/index.html
-proportionalsymbols-scaling,,,https://twitter.com/pinakographos/status/816314547388694528
+dotdensity-netherlands,dot density: Netherlands,,http://research.cbs.nl/colordotmap/NL/index.html
+proportionalsymbols-scaling,proportional symbols scaling,,https://twitter.com/pinakographos/status/816314547388694528
 choro-toomuchclasses,Too much classes!,,
-clustering-atlasobscura,Atlas Obscura,,http://www.atlasobscura.com/articles/for-the-first-time-we-put-all-10000-places-in-the-atlas-on-one-map
+clustering-atlasobscura,clustering: Atlas Obscura,,http://www.atlasobscura.com/articles/for-the-first-time-we-put-all-10000-places-in-the-atlas-on-one-map
 bad-foreignborn,,,http://cartonerd.blogspot.com.es/2017/02/dangerous-times-dangerous-maps.html
 gender-traditional,blue and pink?,,http://www.visualisingdata.com/2015/02/lets-think-blue-pink/
 gender-different,blue and pink?,,http://www.visualisingdata.com/2015/02/lets-think-blue-pink/
-proportionalsymbols-circles,area, not diameter!,,https://gist.github.com/jsanz/c28f0d5bd2c518cddf5c
-proportionalsymbols-elections,,,https://gist.github.com/jsanz/c28f0d5bd2c518cddf5c
-dotdensity,,,http://demographics.virginia.edu/DotMap/
-chernoff-losangeles,Chernoff faces - death penalty,,
-chernoff-deathpenalty,Chernoff faces - los angeles,,
+proportionalsymbols-circles,use area of circles - not diameter!,,https://gist.github.com/jsanz/c28f0d5bd2c518cddf5c
+proportionalsymbols-elections,proportional symbols (US elections),,https://gist.github.com/jsanz/c28f0d5bd2c518cddf5c
+dotdensity,dot density,,http://demographics.virginia.edu/DotMap/
+chernoff-losangeles,Chernoff faces - Los Angeles,,
+chernoff-deathpenalty,Chernoff faces -  Death Penalty,,
 chernoff-key,Chernoff faces,,
 proportionalsymbols-oregon,proportional symbols: occlusion,,
 bad-ukpubs,pubs in the UK,,
 immigrants-flow,symbology matters!,,
 classification-methods-video,,,https://www.youtube.com/watch?v=0ebL8OvG8Jc
-proportionalsymbols-defaults-panama,,,
+proportionalsymbols-defaults-panama,Panama papers - don't use software defaults,,
 d3-projections,,,https://bl.ocks.org/mbostock/3711652
 d3-voronoi,,,http://mbostock.github.io/d3/talk/20111116/airports-all.html
 ,,,

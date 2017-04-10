@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(121, 59, 176);
+  background: rgb(222, 230, 76);
+  text-align: center;
+  font-family: 'Input Mono', sans-serif;
+}
+
+section {
+  display: none;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.-current {
+  display: flex;
+}
+
+a, a:visited  {
+  color: rgb(121, 59, 176);
+  text-decoration: none;
+}
+
+a {
+  height: 90%;
+  width: 100%;
+}
+
+a > div {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100%;
+}
+
+a:hover:not([href=""]) > div::after  {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  content: '➽';
+  font-size: 30px;
+}
